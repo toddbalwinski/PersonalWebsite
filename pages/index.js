@@ -5,7 +5,7 @@ import Head from 'next/head';
 
 export default function Home() {
   const projects = [
-    { title: 'Golf Pool Entry Form', description: 'Built a dynamic web form that manages entries into a custom golf pool.', link: 'https://golf-pool-entry-form.vercel.app/' },
+    { title: 'Golf Pool Entry Form', description: 'Built a dynamic web form that manages entries into a custom golf pool.', link: 'https://github.com/toddbalwinski/GolfPoolEntryForm' },
     { title: 'Project Two', description: 'A short description of project two.', link: '#' },
     // Add more projects here
   ];
@@ -22,7 +22,7 @@ export default function Home() {
         <section id="bio" className="mb-16">
           <h1 className="text-4xl font-bold mb-4">Hello, I&apos;m Todd Balwinski</h1>
           <p className="text-lg leading-relaxed">
-            I&apos;m bio here. I am a student at the University of Virginia purusing a bachelors of science in Computer Science with minors in business and data science.
+            I am a student at the University of Virginia purusing a bachelors of science in Computer Science with minors in business and data science.
             I am passionate about the application of technology to improve business processes and operations. I love thinking about how people interact with systems and technology and how to create the best experiences and outcomes.
             In my free time, I enjoy playing puzzle games like tetris and sudoku, playing and watching sports with my friends.
           </p>
