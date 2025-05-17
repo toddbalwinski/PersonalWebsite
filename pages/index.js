@@ -1,13 +1,11 @@
-// pages/index.js
-// Main landing page with bio and projects sections
-// Make sure Tailwind CSS is configured in your project (see tailwind.config.js)
 import Head from 'next/head';
+import Image from 'next/image';
 
 export default function Home() {
   const projects = [
     { title: 'Golf Pool Entry Form', description: 'Built a dynamic web form that manages entries into a custom golf pool.', link: 'https://github.com/toddbalwinski/GolfPoolEntryForm' },
     { title: 'Project Two', description: 'A short description of project two.', link: '#' },
-    // Add more projects here
+    // more projects here
   ];
 
   return (
@@ -18,15 +16,29 @@ export default function Home() {
       </Head>
 
       <main className="max-w-3xl mx-auto px-4 py-8">
-        {/* Bio Section */}
-        <section id="bio" className="mb-16">
-          <h1 className="text-4xl font-bold mb-4">Hello, I&apos;m Todd Balwinski</h1>
-          <p className="text-lg leading-relaxed">
-            I am a student at the University of Virginia purusing a bachelors of science in Computer Science with minors in business and data science.
-            I am passionate about the application of technology to improve business processes and operations. I love thinking about how people interact with systems and technology and how to create the best experiences and outcomes.
-            In my free time, I enjoy playing puzzle games like tetris and sudoku, playing and watching sports with my friends.
-          </p>
-        </section>
+
+        {/* Bio + Profile Picture */}
+        <div className="flex flex-col md:flex-row items-start mb-16">
+          <section id="bio" className="md:w-2/3">
+            <h1 className="text-4xl font-bold mb-4">Hello, I&apos;m Your Name</h1>
+            <p className="text-lg leading-relaxed">
+              I am a student at the University of Virginia purusing a bachelors of science in Computer Science with minors in business and data science.
+              I am passionate about the application of technology to improve business processes and operations. I love thinking about how people interact with systems and technology and how to create the best experiences and outcomes.
+              In my free time, I enjoy playing puzzle games like tetris and sudoku, and playing and watching sports with my friends.
+            </p>
+          </section>
+
+          <div className="md:w-1/3 mt-8 md:mt-0 md:pl-8 flex justify-center">
+            {/* Place your profile.jpg in the public/ folder at the root of the project */}
+            <Image
+              src="/profile1.png"
+              alt="Your Name"
+              width={200}
+              height={200}
+              className="rounded-full object-cover"
+            />
+          </div>
+        </div>
 
         {/* Projects Section */}
         <section id="projects">
