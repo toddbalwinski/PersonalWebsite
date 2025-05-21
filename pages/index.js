@@ -15,12 +15,13 @@ export default function Home() {
         <meta name="description" content="Bio and projects of Your Name" />
       </Head>
 
-      <main className="max-w-3xl mx-auto px-4 py-8">
+      <main className="max-w-7xl mx-auto px-4 py-8">
 
         {/* Bio + Profile Picture */}
         <div className="flex flex-col md:flex-row items-start mb-16">
           <section id="bio" className="md:w-2/3">
-            <h1 className="text-4xl font-bold mb-4">Hello, I&apos;m Your Name</h1>
+            <h1 className="text-4xl font-bold mb-4">Hello, I&apos;m Todd Balwinski</h1>
+            <h1 className="text-2xl font-bold mb-4 text-red-500">This site is still under development and being updated frequently</h1>
             <p className="text-lg leading-relaxed">
               I am a student at the University of Virginia purusing a bachelors of science in Computer Science with minors in business and data science.
               I am passionate about the application of technology to improve business processes and operations. I love thinking about how people interact with systems and technology and how to create the best experiences and outcomes.
@@ -28,16 +29,17 @@ export default function Home() {
             </p>
           </section>
 
-          <div className="md:w-1/3 mt-8 md:mt-0 md:pl-8 flex justify-center">
-            {/* Place your profile.jpg in the public/ folder at the root of the project */}
+          <div className="mt-6 md:mt-0 md:ml-8">
+          <div className="relative w-48 h-48 md:w-56 md:h-56">
             <Image
-              src="/profile1.png"
-              alt="Your Name"
-              width={200}
-              height={200}
-              className="rounded-full object-cover"
+              src="/profile.png"
+              alt="Todd’s Profile"
+              layout="fill"           // fill the wrapper
+              objectFit="cover"       // crop/cover to maintain aspect
+              className="rounded-full"
             />
           </div>
+        </div>
         </div>
 
         {/* Projects Section */}
