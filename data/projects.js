@@ -1,0 +1,42 @@
+export const projects = [
+  {
+    id: 1,
+    name: 'Majors Golf Pool',
+    image: '/tiger.png',
+    description: 'A live scoring spreadsheet for a custom golf pool that I run for my friends.',
+    link: '',
+    tags: ['Data'],
+  },
+  {
+    id: 2,
+    name: 'Golf Pool Entry Form',
+    image: '/form.png',
+    description: 'A dynamic web form that manages entries into my golf pool.',
+    link: 'https://github.com/toddbalwinski/GolfPoolEntryForm',
+    tags: ['Next.js', 'Tailwind'],
+  },
+  {
+    id: 3,
+    name: 'Twitter to Bluesky Bot',
+    image: '/xbsky.png',
+    description: 'A Python-based bot to automatically reposts a users X posts to Bluesky in real time.',
+    link: 'https://github.com/toddbalwinski/TwitterToBlueskyBot',
+    tags: ['Next.js', 'Tailwind'],
+  },
+  {
+    id: 4,
+    name: 'Vehicle Cataloging and Lending App',
+    image: '/porsche.png',
+    description: 'A cataloging and lending app for vehicles. This project was developed as part of a CS 3240 team project at UVA.',
+    link: 'https://github.com/toddbalwinski/VehicleCatalogingAndLendingApp',
+    tags: ['Next.js', 'Tailwind'],
+  },
+  {
+    id: 5,
+    name: 'Course Review App',
+    image: '/coursereview.png',
+    description: 'A course review web app with CRUD functionality. This project was developed as part of CS 3140 team project at UVA.',
+    link: 'https://github.com/toddbalwinski/CourseReviewApp',
+    tags: ['Java'],
+  },
+];
