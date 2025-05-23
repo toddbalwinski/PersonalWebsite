@@ -21,7 +21,7 @@ export default function Bio() {
             Resume
           </a>
           <a
-            href="YOUR_GITHUB_LINK"
+            href="https://github.com/toddbalwinski"
             target="_blank"
             rel="noopener noreferrer"
             className="px-4 py-2 bg-teal text-white rounded hover:bg-deepBlue transition"
@@ -29,7 +29,7 @@ export default function Bio() {
             GitHub
           </a>
           <a
-            href="YOUR_LINKEDIN_LINK"
+            href="https://www.linkedin.com/in/todd-balwinski/"
             target="_blank"
             rel="noopener noreferrer"
             className="px-4 py-2 bg-teal text-white rounded hover:bg-deepBlue transition"
