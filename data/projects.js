@@ -5,7 +5,7 @@ export const projects = [
     image: '/tiger.png',
     description: 'A live scoring spreadsheet for a custom golf pool that I run for my friends.',
     link: '',
-    tags: ['Data'],
+    tags: ['Data', 'Technical', 'In-progress'],
   },
   {
     id: 2,
@@ -13,7 +13,7 @@ export const projects = [
     image: '/form.png',
     description: 'A dynamic web form that manages entries into my golf pool.',
     link: 'https://github.com/toddbalwinski/GolfPoolEntryForm',
-    tags: ['Next.js', 'Tailwind'],
+    tags: ['Next.js', 'Technical', 'In-progress'],
   },
   {
     id: 3,
@@ -21,7 +21,7 @@ export const projects = [
     image: '/xbsky.png',
     description: 'A Python-based bot to automatically reposts a users X posts to Bluesky in real time.',
     link: 'https://github.com/toddbalwinski/TwitterToBlueskyBot',
-    tags: ['Next.js', 'Tailwind'],
+    tags: ['Python', 'Technical'],
   },
   {
     id: 4,
@@ -29,7 +29,7 @@ export const projects = [
     image: '/porsche.png',
     description: 'A cataloging and lending app for vehicles. This project was developed as part of a CS 3240 team project at UVA.',
     link: 'https://github.com/toddbalwinski/VehicleCatalogingAndLendingApp',
-    tags: ['Next.js', 'Tailwind'],
+    tags: ['Python', 'Technical'],
   },
   {
     id: 5,
@@ -37,6 +37,22 @@ export const projects = [
     image: '/coursereview.png',
     description: 'A course review web app with CRUD functionality. This project was developed as part of CS 3140 team project at UVA.',
     link: 'https://github.com/toddbalwinski/CourseReviewApp',
-    tags: ['Java'],
+    tags: ['Java', 'Technical'],
+  },
+  {
+    id: 6,
+    name: 'Developing a Vulnerable System Ethics Case',
+    image: '/ethics.png',
+    description: 'An ethics case discussing a fast paced tech startup enviornment. Made to evoke critical ethical thinking.',
+    link: 'https://docs.google.com/document/d/e/2PACX-1vRKgxLu2R6tAU-YF4OWMh2nmz7S07kL44N3sFvzWz334s9kzA0J1SFPHKMFbqc7bMcx78Pzq4kYHTmG/pub',
+    tags: ['Ethics', 'Non-technical'],
+  },
+    {
+    id: 7,
+    name: 'Needle&Note',
+    image: '/note.png',
+    description: 'A site to track and rate albums you have listened to.',
+    link: 'https://docs.google.com/document/d/e/2PACX-1vRKgxLu2R6tAU-YF4OWMh2nmz7S07kL44N3sFvzWz334s9kzA0J1SFPHKMFbqc7bMcx78Pzq4kYHTmG/pub',
+    tags: ['Java', 'AWS', 'In-progress', 'Technical'],
   },
 ];
