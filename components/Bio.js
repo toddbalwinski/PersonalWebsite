@@ -9,9 +9,7 @@ export default function Bio() {
       <div className="flex-1">
         <h1 className="text-4xl font-bold mb-4">Hello, I’m Todd!</h1>
         <p className="text-lg leading-relaxed">
-          I’m a rising third-year engineering student at UVA, majoring in
-          Computer Science with minors in Business & Data Science. I love
-          improving workflows with technology—and building my own when I can.
+          I am a student at the University of Virginia purusing a bachelors of science in Computer Science with minors in business and data science. I am passionate about the application of technology to improve business processes and operations. I love thinking about how people interact with systems and technology and how to create the best experiences and outcomes. In my free time, I enjoy playing puzzle games like tetris and sudoku, and playing and watching sports with my friends.
         </p>
         <div className="mt-6 flex space-x-4">
           <a

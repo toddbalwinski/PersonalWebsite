@@ -37,12 +37,12 @@ export default function Home() {
           className="scroll-mt-16 mt-12 border-t border-lightGray pt-6 text-center"
         >
           <p className="text-sm">
-            <a href="tel:+1234567890" className="hover:underline">
-              +1 (234) 567-8901
+            <a href="tel:+15715219973" className="hover:underline">
+              +1 (571) 521-9973
             </a>{' '}
             |{' '}
-            <a href="mailto:todd@yourdomain.com" className="hover:underline">
-              todd@yourdomain.com
+            <a href="mailto:tbalwinski@gmail.com" className="hover:underline">
+              tbalwinski@gmail.com
             </a>
           </p>
           <p className="text-xs mt-2">
