@@ -5,6 +5,7 @@ export const experiences = [
     id: 1,
     orgName: 'Trigon Engineering Society',
     logo: '/trigon.jpg',
+    // link: '/'
     roles: [
       {
         position: 'Vice President',

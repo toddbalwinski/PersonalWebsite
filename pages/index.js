@@ -10,7 +10,7 @@ export default function Home() {
       <header className="fixed inset-x-0 top-0 bg-white shadow z-20 flex items-center justify-between py-4 px-2 md:px-4 lg:px-6">
         <div className="flex-shrink-0">
           <Image
-            src="/logo.png"
+            src="/tb.png"
             alt="Logo"
             width={40}
             height={40}
@@ -27,6 +27,7 @@ export default function Home() {
 
       {/* ─── Page Content ─── */}
       <main className="pt-20 max-w-screen-xl mx-auto px-6 py-8 bg-white text-charcoal">
+        <h1 className="text-2xl font-bold mb-4 text-red-500">This site is still under development and is being updated frequently</h1>
         <BioSection />
         <ExperienceSection />
         <ProjectsSection />
