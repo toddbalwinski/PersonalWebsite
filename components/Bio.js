@@ -4,10 +4,10 @@ export default function Bio() {
   return (
     <section
       id="bio"
-      className="scroll-mt-16 flex flex-col md:flex-row items-center md:items-start"
+      className="scroll-mt-20 flex flex-col md:flex-row items-center md:items-start"
     >
       <div className="flex-1">
-        <h1 className="text-4xl font-bold mb-4">Hello, I’m Todd!</h1>
+        <h1 className="text-4xl font-bold mb-4">Hi, I’m Todd Balwinski</h1>
         <p className="text-lg leading-relaxed">
           I am a student at the University of Virginia purusing a bachelors of science in Computer Science with minors in business and data science. I am passionate about the application of technology to improve business processes and operations. I love thinking about how people interact with systems and technology and how to create the best experiences and outcomes. In my free time, I enjoy playing puzzle games like tetris and sudoku, and playing and watching sports with my friends.
         </p>

@@ -5,7 +5,7 @@ export const projects = [
     image: '/tiger.png',
     description: 'A live scoring spreadsheet for a custom golf pool that I run for my friends.',
     link: '',
-    tags: ['Data', 'Technical', 'In-progress'],
+    tags: ['Technical', 'In-progress'],
   },
   {
     id: 2,
@@ -13,7 +13,7 @@ export const projects = [
     image: '/form.png',
     description: 'A dynamic web form that manages entries into my golf pool.',
     link: 'https://github.com/toddbalwinski/GolfPoolEntryForm',
-    tags: ['Next.js', 'Technical', 'In-progress'],
+    tags: ['Technical', 'In-progress'],
   },
   {
     id: 3,
@@ -45,7 +45,7 @@ export const projects = [
     image: '/ethics.png',
     description: 'An ethics case discussing a fast paced tech startup enviornment. Made to evoke critical ethical thinking.',
     link: 'https://docs.google.com/document/d/e/2PACX-1vRKgxLu2R6tAU-YF4OWMh2nmz7S07kL44N3sFvzWz334s9kzA0J1SFPHKMFbqc7bMcx78Pzq4kYHTmG/pub',
-    tags: ['Ethics', 'Non-technical'],
+    tags: ['Non-technical'],
   },
     {
     id: 7,
@@ -53,6 +53,6 @@ export const projects = [
     image: '/note.png',
     description: 'A site to track and rate albums you have listened to.',
     link: 'https://docs.google.com/document/d/e/2PACX-1vRKgxLu2R6tAU-YF4OWMh2nmz7S07kL44N3sFvzWz334s9kzA0J1SFPHKMFbqc7bMcx78Pzq4kYHTmG/pub',
-    tags: ['Java', 'AWS', 'In-progress', 'Technical'],
+    tags: ['Java', 'In-progress', 'Technical'],
   },
 ];
