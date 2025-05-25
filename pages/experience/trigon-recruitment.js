@@ -15,7 +15,7 @@ export default function EngSocRecruitmentChair() {
       <div className="md:flex md:items-start md:gap-6 mb-8">
         <div className="md:w-2/3">
           <p className="mb-4">
-            When I became the recruitment chair for Trigon at the beginning of my second year, I didn’t exactly know what to expect—but I was passionate about our society and who would join us, so I was determined to do a great job.
+            When I became the recruitment chair for Trigon at the beginning of my second year, I didn’t exactly know what to expect, but I was passionate about our society and who would join us, so I was determined to do a great job.
           </p>
           <p className="mb-4">
             After being elected at the end of my first year, I noticed over the summer that my friends involved in other organizations were already planning their recruitment events, yet Trigon hadn’t started anything. When I asked our senior recruitment chairs, they explained that typically, we only started planning a couple of weeks before school began. Curious about our existing materials, I requested access to our recruitment Google Drive and quickly realized things needed a serious overhaul.
@@ -34,7 +34,7 @@ export default function EngSocRecruitmentChair() {
 
       {/* 2nd paragraph */}
       <p className="mb-6">
-        The drive was owned by an alumnus, making access complicated, and its contents were disorganized, inconsistent, and sometimes entirely irrelevant—like a random Taylor Swift album saved among the recruitment files. Sheets and documents had unclear titles, incomplete data, and no consistent method for tracking potential members. Clearly, our recruitment process relied too heavily on informal knowledge sharing, leaving significant room for error and inefficiency.
+        The drive was owned by an alumnus, making access complicated, and its contents were disorganized, inconsistent, and sometimes entirely irrelevant, like a random Taylor Swift album saved among the recruitment files. Sheets and documents had unclear titles, incomplete data, and no consistent method for tracking potential members. Clearly, our recruitment process relied too heavily on informal knowledge sharing, leaving significant room for error and inefficiency.
       </p>
       <p className="mb-6">
         I immediately got to work restructuring the system. I created standardized digital forms to track attendance at each recruitment event, which also included fun personality questions to help us get to know potential new members better. All responses fed directly into a clear, organized spreadsheet summarizing critical details like names, academic year, engineering status, and their responses to our engaging questions.

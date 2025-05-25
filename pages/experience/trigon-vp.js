@@ -14,7 +14,7 @@ export default function trigonvp() {
       <div className="md:flex md:items-start md:gap-6 mb-8">
         <div className="md:w-2/3">
           <p className="mb-4">
-            When I first joined Trigon, our engineering society was built around three key ideas: social events, brotherhood, and community service. While social activities and brotherhood help us build strong internal friendships, I've always believed that community service is the most important—it connects us meaningfully to our broader community and truly gives our organization purpose.
+            When I first joined Trigon, our engineering society was built around three key ideas: social events, brotherhood, and community service. While social activities and brotherhood help us build strong internal friendships, I've always believed that community service is the most important as it connects us meaningfully to our broader community and truly gives our organization purpose.
           </p>
           <p className="mb-4">
             However, when I first became a member, our commitment to community service wasn't matching up with this vision. The society was mostly inactive, holding just one service event per semester, and even then, only first-year students typically showed up. Most upperclassmen were disengaged, and the main exception was the Thomas E. Hutchinson Award dinner, where we honored outstanding professors. But this event alone wasn't enough to show our commitment to service.
@@ -41,7 +41,7 @@ export default function trigonvp() {
 
       {/* Paragraph with link */}
       <p className="mb-6">
-        By the end of my first semester as Vice President, more than half of our members had joined at least one service event—a major improvement over previous years. More importantly, these events created stronger connections within our society, drawing in members who had previously been inactive and helping new members feel welcomed and involved right from the start.
+        By the end of my first semester as Vice President, more than half of our members had joined at least one service event, which was a major improvement over previous years. More importantly, these events created stronger connections within our society, drawing in members who had previously been inactive and helping new members feel welcomed and involved right from the start.
       </p>
 
       {/* Second image and reflection */}
