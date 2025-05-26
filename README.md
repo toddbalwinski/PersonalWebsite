@@ -36,9 +36,8 @@ This is my personal website built to showcase my projects, experience, and backg
 
 This project is deployed on [Vercel](https://vercel.com/):
 
-- Push to `main` (or your chosen branch) on GitHub.
-- Vercel will automatically build and deploy the site.
-- Configure a custom domain in your Vercel dashboard if desired.
+- Push to `main` on GitHub.
+- Vercel automatically builds and deploys the site.
 
 ## File Structure Highlights
 
