@@ -4,7 +4,7 @@ export default function Bio() {
   return (
     <section
       id="bio"
-      className="scroll-mt-20 flex flex-col md:flex-row items-center md:items-start"
+      className="scroll-mt-16 flex flex-col md:flex-row items-center md:items-start"
     >
       <div className="flex-1">
         <h1 className="text-4xl font-bold mb-4">Hi, I’m Todd Balwinski</h1>
@@ -41,7 +41,7 @@ export default function Bio() {
       <div className="mt-6 md:mt-0 md:ml-8">
         <div className="relative w-48 h-48 md:w-56 md:h-56 rounded-full overflow-hidden border-4 border-deepBlue">
           <Image
-            src="/profile.png"
+            src="/profile2.png"
             alt="Todd’s Profile"
             layout="fill"
             objectFit="cover"

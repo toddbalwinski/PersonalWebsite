@@ -4,7 +4,7 @@ export const experiences = [
   {
     id: 1,
     orgName: 'Trigon Engineering Society',
-    logo: '/trigon.jpg',
+    logo: '/trigonnobg.png',
     // link: '/'
     roles: [
       {
@@ -29,7 +29,7 @@ export const experiences = [
   {
     id: 2,
     orgName: 'Pansophic Learning',
-    logo: '/pansophic2.png',
+    logo: '/plnobg.png',
     roles: [
       {
         position: 'Intern',

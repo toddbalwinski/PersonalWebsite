@@ -3,6 +3,7 @@ import ProjectsSection from '../components/Projects'
 import ExperienceSection from '../components/Experience'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
+import PhotoCollage from '../components/Photos'
 
 export default function Home() {
   return (

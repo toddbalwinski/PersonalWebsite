@@ -42,6 +42,9 @@ export default function trigonvp() {
       {/* Paragraph with link */}
       <p className="mb-6">
         By the end of my first semester as Vice President, more than half of our members had joined at least one service event, which was a major improvement over previous years. More importantly, these events created stronger connections within our society, drawing in members who had previously been inactive and helping new members feel welcomed and involved right from the start.
+        <Link href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRzEkyeVaS9jV2m2zw5OyoW-Mk8ui-cxgLLlA2r8FfKb1qHd0v7ko6kXFqhT2uPmGjIg8NH85hrkfsI/pubhtml#" className="text-teal hover:underline">
+              Service Attendance Sheet
+            </Link>
       </p>
 
       {/* Second image and reflection */}
@@ -57,7 +60,7 @@ export default function trigonvp() {
         </div>
         <div className="md:w-2/3">
           <p className="mb-6">
-            Beyond just running these events, I also pushed for changes that would help future leaders. I set up dedicated emails for each executive position and encouraged everyone to document their tasks and projects clearly. These small organizational improvements will help make leadership transitions smoother and ensure that the momentum we've built isn't lost.
+            Beyond just running these events, I also pushed for changes that would help future leaders. I set up dedicated emails for each executive position and encouraged everyone to document their tasks and projects clearly. These small organizational improvements will help make leadership transitions smoother and ensure that the momentum we've built isn't lost. 
           </p>
           <p className="mb-4">
             Overall, my time as Vice President helped revive our commitment to service, boosted member engagement, and established lasting changes that will help Trigon continue making a positive impact for years to come.          </p>

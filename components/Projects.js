@@ -23,7 +23,7 @@ export default function Projects() {
   }
 
   return (
-    <section id="projects" className="scroll-mt-20 mt-12">
+    <section id="projects" className="scroll-mt-16 mt-12">
       <h2 className="text-3xl font-semibold mb-4 text-deepBlue">Projects</h2>
 
       <div className="flex flex-wrap gap-2 mb-6">
@@ -62,6 +62,7 @@ export default function Projects() {
                 transition={{ duration: 0.3 }}
                 whileHover={{ scale: 1.02 }}
                 className="
+                    relative
                     bg-white rounded-lg shadow
                     border-2 border-transparent
                     transition-colors duration-200 ease-in-out
@@ -69,6 +70,15 @@ export default function Projects() {
                     flex flex-col overflow-hidden
                 "
             >
+              <div
+                className="
+                  pointer-events-none    /* clicks pass through */
+                  absolute inset-x-0 bottom-0 top-48
+                  bg-gradient-to-br
+                  from-transparent
+                  to-teal/5
+                "
+              />
               <div className="relative w-full h-48">
                 <Image
                   src={p.image}
